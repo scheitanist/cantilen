@@ -1390,6 +1390,7 @@ h6 {
         .footer__inner-unit-item {
             border-right-color: transparent;
             background: transparent;
+            opacity: 1;
             }
     }
 
