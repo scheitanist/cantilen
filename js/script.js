@@ -151,24 +151,71 @@ window.addEventListener('DOMContentLoaded', function () {
 
     searchShow();
 
+    function catShowType() {
+        let cat = document.querySelector('.cat__main'),
+            controlsSection = cat.querySelectorAll('.cat__main-head-item'),
+            prodList = cat.querySelector('.prod'),
+            grid = prodList.querySelector('.prod__inner');
+
+        console.log(controlsSection);
+
+        for (let section of controlsSection) {
+            let controls = section.querySelectorAll('.cat__main-head-control');
+
+            section.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                for (let control of controls) {
+                    let target = event.target;
+
+                    control.classList.remove('_active');
+
+                    if (target.classList.contains('_list')) {
+                        target.classList.add('_active');
+                        prodList.classList.remove('_tile');
+                        prodList.classList.add('_list');
+                        grid.classList.remove('_4');
+                        grid.classList.remove('_mobile-2');
+                        grid.classList.add('_mobile');
+                    } else if (target.classList.contains('_tile')) {
+                        // control.classList.remove('_active');
+                        target.classList.add('_active');
+                        prodList.classList.remove('_list');
+                        prodList.classList.add('_tile');
+                        grid.classList.remove('_mobile');
+                        grid.classList.add('_4');
+                        grid.classList.add('_mobile-2');
+                    } else {
+                        return false
+                    }
+                }
+
+            });
+
+        }
+
+    }
+
+    catShowType();
+
 });
 
-$(document).ready(function(){
-    var show = true;
-    var countbox = ".counters";
-    $(window).on("scroll load resize", function(){
-        if(!show) return false;                   // Отменяем показ анимации, если она уже была выполнена
-        var w_top = $(window).scrollTop();        // Количество пикселей на которое была прокручена страница
-        var e_top = $(countbox).offset().top;     // Расстояние от блока со счетчиками до верха всего документа
-        var w_height = $(window).height();        // Высота окна браузера
-        var d_height = $(document).height();      // Высота всего документа
-        var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
-        if(w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
-            $(".spincrement").spincrement({
-                thousandSeparator: "",
-                duration: 1200
-            });
-            show = false;
-        }
-    });
-});
+// $(document).ready(function(){
+//     var show = true;
+//     var countbox = ".counters";
+//     $(window).on("scroll load resize", function(){
+//         if(!show) return false;                   // Отменяем показ анимации, если она уже была выполнена
+//         var w_top = $(window).scrollTop();        // Количество пикселей на которое была прокручена страница
+//         var e_top = $(countbox).offset().top;     // Расстояние от блока со счетчиками до верха всего документа
+//         var w_height = $(window).height();        // Высота окна браузера
+//         var d_height = $(document).height();      // Высота всего документа
+//         var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
+//         if(w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
+//             $(".spincrement").spincrement({
+//                 thousandSeparator: "",
+//                 duration: 1200
+//             });
+//             show = false;
+//         }
+//     });
+// });
