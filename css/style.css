@@ -742,10 +742,12 @@ h6 {
     .subnav__link,
     .subnav__link:visited {
         position: relative;
-        padding: 40px 0 0;
+        padding: 40px 15px 0;
+        /*padding: 40px 0 0;*/
         /*padding: 40px 0 20px;*/
-        margin: 0 10px;
-        width: 105px;
+            /*margin: 0 10px;*/
+        max-width: 125px;
+        /*width: 105px;*/
         display: block;
         text-align: center;
         text-decoration: none;
@@ -755,6 +757,9 @@ h6 {
     .subnav__link:hover {
         color: #ffffff;
         text-decoration: none;
+        }
+    .subnav__link._no-img {
+        padding: 0;
         }
         .subnav__link img {
             position: absolute;
@@ -1301,6 +1306,9 @@ h6 {
 .prod {
 
     }
+    .prod * {
+        transition: all 0.2s ease;
+        }
 .prod._list {
 
     }
