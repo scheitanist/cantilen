@@ -198,6 +198,50 @@ window.addEventListener('DOMContentLoaded', function () {
 
     catShowType();
 
+    function catTabs() {
+        let overlay = document.querySelector('.d-cat__tabs'),
+            tabs = document.querySelector('.d-cat__tabs-head'),
+            tab = overlay.querySelectorAll('.d-cat__tabs-head-item'),
+            tabContent = overlay.querySelectorAll('.d-cat__tabs-main-text, .d-cat__tabs-main-faq, .d-cat__tabs-main-chars');
+
+        function hideTabContent(a) {
+            for(let i = a; i < tabContent.length; i++) {
+                tabContent[i].classList.remove('_show');
+                tabContent[i].classList.add('_hide');
+            }
+        }
+
+        hideTabContent(1);
+
+        function showTabContent(b) {
+            if (tabContent[b].classList.contains('_hide')) {
+                hideTabContent(0);
+                tabContent[b].classList.remove('_hide');
+                tabContent[b].classList.add('_show');
+            }
+        }
+
+        tabs.addEventListener('click', function (event) {
+            let target = event.target;
+
+            for (let item of tab) {
+                item.classList.remove('_active')
+            }
+
+            if (target.classList.contains('d-cat__tabs-head-item')) {
+                for (let i = 0; i < tab.length; i++) {
+                    if (target === tab[i]) {
+                        showTabContent(i);
+                        tab[i].classList.add('_active');
+                        break;
+                    }
+                }
+            }
+        });
+    }
+
+    catTabs();
+
 });
 
 // $(document).ready(function(){
