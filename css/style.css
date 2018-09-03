@@ -283,18 +283,23 @@ a:hover {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background: #f7f7f7;
     font-family: "Open Sans";
     font-size: 14px;
     color: #000;
     transition: all 0.2s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: #f7f7f7 url(../img/icons/s_bg_1.png) calc(100% - 10px) center no-repeat;
     }
+.c-select._active,
 .c-select:focus {
     border-color: transparent;
     border-radius: 5px;
-    background: #fff;
     box-shadow: none;
     outline: none;
+    background: #f7f7f7 url(../img/icons/s_bg_2.png) calc(100% - 10px) center no-repeat;
     }
     .c-select > option {
         padding: 0 15px;

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9abef5c-1acd-492c-9515-00b5a6e91dd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/bg_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg_subnav.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="31" />
-          <entry key="txt" value="221" />
+          <entry key="txt" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="31" />
-          <entry key="PLAIN_TEXT" value="221" />
+          <entry key="PLAIN_TEXT" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,7 +145,7 @@
       <workItem from="1535683335106" duration="2907000" />
       <workItem from="1535716982026" duration="60000" />
       <workItem from="1535945893238" duration="20000" />
-      <workItem from="1535945937101" duration="611000" />
+      <workItem from="1535945937101" duration="1237000" />
     </task>
     <task id="LOCAL-00001" summary="главная + типографика">
       <created>1535514667955</created>
@@ -222,14 +217,22 @@
       <option name="project" value="LOCAL" />
       <updated>1535717028935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="фиксы главной + менюшки адаптив">
+      <created>1535953877780</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535953877780</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8308000" />
+    <option name="totallyTimeSpent" value="8934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -267,7 +270,8 @@
     <MESSAGE value="css фиксы мелкие" />
     <MESSAGE value="деталка в процессе + картинки" />
     <MESSAGE value="деталка в процессе с плохим адаптивом" />
-    <option name="LAST_COMMIT_MESSAGE" value="деталка в процессе с плохим адаптивом" />
+    <MESSAGE value="фиксы главной + менюшки адаптив" />
+    <option name="LAST_COMMIT_MESSAGE" value="фиксы главной + менюшки адаптив" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
