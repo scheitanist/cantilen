@@ -151,96 +151,96 @@ window.addEventListener('DOMContentLoaded', function () {
 
     searchShow();
 
-    function catShowType() {
-        let cat = document.querySelector('.cat__main'),
-            controlsSection = cat.querySelectorAll('.cat__main-head-item'),
-            prodList = cat.querySelector('.prod'),
-            grid = prodList.querySelector('.prod__inner');
+    // function catShowType() {
+    //     let cat = document.querySelector('.cat__main'),
+    //         controlsSection = cat.querySelectorAll('.cat__main-head-item'),
+    //         prodList = cat.querySelector('.prod'),
+    //         grid = prodList.querySelector('.prod__inner');
+    //
+    //     console.log(controlsSection);
+    //
+    //     for (let section of controlsSection) {
+    //         let controls = section.querySelectorAll('.cat__main-head-control');
+    //
+    //         section.addEventListener('click', function (event) {
+    //             event.preventDefault();
+    //
+    //             for (let control of controls) {
+    //                 let target = event.target;
+    //
+    //                 control.classList.remove('_active');
+    //
+    //                 if (target.classList.contains('_list')) {
+    //                     target.classList.add('_active');
+    //                     prodList.classList.remove('_tile');
+    //                     prodList.classList.add('_list');
+    //                     grid.classList.remove('_4');
+    //                     grid.classList.remove('_mobile-2');
+    //                     grid.classList.add('_mobile');
+    //                 } else if (target.classList.contains('_tile')) {
+    //                     // control.classList.remove('_active');
+    //                     target.classList.add('_active');
+    //                     prodList.classList.remove('_list');
+    //                     prodList.classList.add('_tile');
+    //                     grid.classList.remove('_mobile');
+    //                     grid.classList.add('_4');
+    //                     grid.classList.add('_mobile-2');
+    //                 } else {
+    //                     return false
+    //                 }
+    //             }
+    //
+    //         });
+    //
+    //     }
+    //
+    // }
+    //
+    // catShowType();
 
-        console.log(controlsSection);
-
-        for (let section of controlsSection) {
-            let controls = section.querySelectorAll('.cat__main-head-control');
-
-            section.addEventListener('click', function (event) {
-                event.preventDefault();
-
-                for (let control of controls) {
-                    let target = event.target;
-
-                    control.classList.remove('_active');
-
-                    if (target.classList.contains('_list')) {
-                        target.classList.add('_active');
-                        prodList.classList.remove('_tile');
-                        prodList.classList.add('_list');
-                        grid.classList.remove('_4');
-                        grid.classList.remove('_mobile-2');
-                        grid.classList.add('_mobile');
-                    } else if (target.classList.contains('_tile')) {
-                        // control.classList.remove('_active');
-                        target.classList.add('_active');
-                        prodList.classList.remove('_list');
-                        prodList.classList.add('_tile');
-                        grid.classList.remove('_mobile');
-                        grid.classList.add('_4');
-                        grid.classList.add('_mobile-2');
-                    } else {
-                        return false
-                    }
-                }
-
-            });
-
-        }
-
-    }
-
-    catShowType();
-
-    function catTabs() {
-        let overlay = document.querySelector('.d-cat__tabs'),
-            tabs = document.querySelector('.d-cat__tabs-head'),
-            tab = overlay.querySelectorAll('.d-cat__tabs-head-item'),
-            tabContent = overlay.querySelectorAll('.d-cat__tabs-main-text, .d-cat__tabs-main-faq, .d-cat__tabs-main-chars');
-
-        function hideTabContent(a) {
-            for(let i = a; i < tabContent.length; i++) {
-                tabContent[i].classList.remove('_show');
-                tabContent[i].classList.add('_hide');
-            }
-        }
-
-        hideTabContent(1);
-
-        function showTabContent(b) {
-            if (tabContent[b].classList.contains('_hide')) {
-                hideTabContent(0);
-                tabContent[b].classList.remove('_hide');
-                tabContent[b].classList.add('_show');
-            }
-        }
-
-        tabs.addEventListener('click', function (event) {
-            let target = event.target;
-
-            for (let item of tab) {
-                item.classList.remove('_active')
-            }
-
-            if (target.classList.contains('d-cat__tabs-head-item')) {
-                for (let i = 0; i < tab.length; i++) {
-                    if (target === tab[i]) {
-                        showTabContent(i);
-                        tab[i].classList.add('_active');
-                        break;
-                    }
-                }
-            }
-        });
-    }
-
-    catTabs();
+    // function catTabs() {
+    //     let overlay = document.querySelector('.d-cat__tabs'),
+    //         tabs = document.querySelector('.d-cat__tabs-head'),
+    //         tab = overlay.querySelectorAll('.d-cat__tabs-head-item'),
+    //         tabContent = overlay.querySelectorAll('.d-cat__tabs-main-text, .d-cat__tabs-main-faq, .d-cat__tabs-main-chars');
+    //
+    //     function hideTabContent(a) {
+    //         for(let i = a; i < tabContent.length; i++) {
+    //             tabContent[i].classList.remove('_show');
+    //             tabContent[i].classList.add('_hide');
+    //         }
+    //     }
+    //
+    //     hideTabContent(1);
+    //
+    //     function showTabContent(b) {
+    //         if (tabContent[b].classList.contains('_hide')) {
+    //             hideTabContent(0);
+    //             tabContent[b].classList.remove('_hide');
+    //             tabContent[b].classList.add('_show');
+    //         }
+    //     }
+    //
+    //     tabs.addEventListener('click', function (event) {
+    //         let target = event.target;
+    //
+    //         for (let item of tab) {
+    //             item.classList.remove('_active')
+    //         }
+    //
+    //         if (target.classList.contains('d-cat__tabs-head-item')) {
+    //             for (let i = 0; i < tab.length; i++) {
+    //                 if (target === tab[i]) {
+    //                     showTabContent(i);
+    //                     tab[i].classList.add('_active');
+    //                     break;
+    //                 }
+    //             }
+    //         }
+    //     });
+    // }
+    //
+    // catTabs();
 
 });
 
