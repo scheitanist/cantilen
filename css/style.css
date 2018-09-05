@@ -46,7 +46,8 @@ body {
     overflow-x: hidden;
     }
 .wrapper._main {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     max-width: 100%;
     }
 
@@ -1658,7 +1659,7 @@ h6 {
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
-        background: #f7f7f7;
+        background: #f0f0f0;
         }
         .news__item-img {
             }
@@ -1709,6 +1710,77 @@ h6 {
         .d-news__others-title {
             margin: 30px 0;
             }
+
+/*Contacts*/
+
+.contacts {
+    position: relative;
+    padding-top: 20px;
+    }
+    .contacts__title {
+        margin: 0 auto 60px;
+        max-width: 1200px;
+        }
+    .contacts__map {
+        /*margin: 0 -10px;*/
+        }
+        .contacts__map iframe {
+            width: 100%;
+            }
+    .contacts__info {
+        position: absolute;
+        z-index: 5;
+        bottom: 0;
+        margin: 0;
+        padding: 40px 0 20px;
+        min-width: 100vw;
+        /*width: 100%;*/
+        background: rgba(61, 191, 115, 0.8); /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(72, 193, 70, 1) 0%, rgba(61, 191, 115, 1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(72, 193, 70, 1), rgba(61, 191, 115, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(72, 193, 70, 1), rgba(61, 191, 115, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        /*background: -moz-linear-gradient(left, rgba(72, 193, 70, 0.8) 0%, rgba(61, 191, 115, 0.8) 100%); !* FF3.6-15 *!*/
+        /*background: -webkit-linear-gradient(left, rgba(72, 193, 70, 0.8), rgba(61, 191, 115, 0.8) 100%); !* Chrome10-25,Safari5.1-6 *!*/
+        /*background: linear-gradient(to right, rgba(72, 193, 70, 0.8), rgba(61, 191, 115, 0.8) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+        }
+        .contacts__info-inner {
+            margin: 0 auto;
+            max-width: 1200px;
+            }
+        .contacts__info-unit {
+            /*padding: 20px 0 0;*/
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            }
+        .contacts__info-unit:last-child {
+            justify-content: flex-end;
+            }
+        .contacts__info-item {
+            padding: 0 0 20px 40px;
+            background: top left no-repeat;
+            }
+        .contacts__info-item:first-child {
+            background-image: url(../img/icons/marker_white.png);
+            }
+        .contacts__info-item:last-child {
+            background-image: url(../img/icons/phone_white.png);
+            }
+            .contacts__info-item-btn {
+                padding: 0 15px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                font-size: 13px;
+                text-decoration: none;
+                line-height: 40px;
+                color: #ffffff;
+                }
+            .contacts__info-item-btn:hover {
+                border: 1px solid #fff;
+                text-decoration: none;
+                color: #000000;
+                background: #ffffff;
+                }
 
 /*Footer*/
 
@@ -1942,6 +2014,13 @@ h6 {
         }
     .d-cat__head-item-title {
         display: none;
+        }
+    .contacts__map {
+        margin: 0 -10px;
+        }
+    .contacts__info {
+        padding: 20px 10px;
+        margin: 0 -10px;
         }
     .footer__inner-unit {
         flex-flow: column nowrap;
