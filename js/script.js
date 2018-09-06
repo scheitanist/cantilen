@@ -17,18 +17,18 @@ window.addEventListener('DOMContentLoaded', function () {
 
     inputs();
 
-    function subNavImgWidth() {
-        let subNavImg = document.querySelectorAll('._aligner');
-
-        for (let overlay of subNavImg) {
-            let img = overlay.getElementsByTagName('img')[0],
-                imgWidth = img.clientWidth;
-
-            img.style.left = 'calc(50% - ' + (imgWidth / 2) + 'px)';
-        }
-    }
-
-    subNavImgWidth();
+    // function subNavImgWidth() {
+    //     let subNavImg = document.querySelectorAll('._aligner');
+    //
+    //     for (let overlay of subNavImg) {
+    //         let img = overlay.getElementsByTagName('img')[0],
+    //             imgWidth = img.clientWidth;
+    //
+    //         img.style.left = 'calc(50% - ' + (imgWidth / 2) + 'px)';
+    //     }
+    // }
+    //
+    // subNavImgWidth();
 
     function sliderBrands() {
         let sliders = document.querySelectorAll('._slider-b');
