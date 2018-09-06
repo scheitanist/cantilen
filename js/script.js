@@ -151,6 +151,23 @@ window.addEventListener('DOMContentLoaded', function () {
 
     searchShow();
 
+    function auth() {
+       let auth = document.querySelector('.auth'),
+           cont = auth.querySelector('.auth__inner'),
+           link = auth.querySelector('.login');
+
+       link.addEventListener('click', function (event) {
+           event.preventDefault();
+           if (event.target === link && !cont.classList.contains('_visible')) {
+               cont.classList.add('_visible');
+           } else {
+               cont.classList.remove('_visible');
+           }
+       })
+    }
+
+    auth();
+
     // function catShowType() {
     //     let cat = document.querySelector('.cat__main'),
     //         controlsSection = cat.querySelectorAll('.cat__main-head-item'),
