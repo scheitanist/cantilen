@@ -2086,6 +2086,9 @@ h6 {
     .filial table td._hidden {
         /*display: none;*/
         }
+    .filial table td._nowrap {
+        white-space: nowrap;
+        }
         .filial table td span {
             width: 100%;
             display: block;
@@ -2135,7 +2138,7 @@ h6 {
 /*Employees*/
 
 .employees {
-
+    padding: 20px 30px;
     }
     .employees__item {
 
@@ -2492,7 +2495,7 @@ h6 {
             display: none;
             }
             .filial table td span {
-                max-width: 50px;
+                max-width: 40px;
                 }
     .footer__inner-unit {
         flex-flow: column nowrap;
