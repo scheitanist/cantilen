@@ -1862,6 +1862,22 @@ h6 {
             color: #666;
             }
 
+/*Popular products*/
+
+.pop-prod {
+
+    }
+    .pop-prod__title {
+
+        }
+    .pop-prod__list {
+        padding: 20px 35px;
+        }
+        .pop-prod__list > .control._next,
+        .pop-prod__list > .control._prev {
+            top: 23%;
+            }
+
 /*News detail*/
 
 .d-news {
