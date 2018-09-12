@@ -587,6 +587,8 @@ h6 {
         .location:visited,
         .burger,
         .burger:visited,
+        .basket,
+        .basket:visited,
         .login,
         .login:visited {
             padding: 0 0 0 25px;
@@ -602,6 +604,10 @@ h6 {
             }
         .burger {
             background-image: url(../img/icons/i_burger.png);
+            }
+        .basket,
+        .basket:visited {
+            background-image: url(../img/icons/i_basket.png);
             }
         .login {
             background-image: url(../img/icons/i_person.png);
@@ -1873,8 +1879,8 @@ h6 {
     .pop-prod__list {
         padding: 20px 35px;
         }
-        .pop-prod__list > .control._next,
-        .pop-prod__list > .control._prev {
+        .pop-prod__list ._slider > .control._next,
+        .pop-prod__list ._slider > .control._prev {
             top: 23%;
             }
 
