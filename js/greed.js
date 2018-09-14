@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
         for (let slider of sliders) {
             let items = slider.querySelectorAll('._slider > .grid__item'),
+                overlay = slider.parentElement,
                 width = 0;
 
             for (let item of items) {
@@ -15,13 +16,19 @@ window.addEventListener('DOMContentLoaded', function () {
                 next = document.createElement('div');
 
             function arrows() {
-                slider.insertBefore(prev, items[0]);
-                slider.insertBefore(next, items[0]);
+
+                if (slider.dataset.overlay == 'true') {
+                    overlay.insertBefore(prev, slider);
+                    overlay.insertBefore(next, slider);
+                } else {
+                    slider.insertBefore(prev, items[0]);
+                    slider.insertBefore(next, items[0]);
+                }
 
                 prev.className = 'control _prev';
                 next.className = 'control _next';
 
-                let controls = slider.querySelectorAll('.control');
+                let controls = overlay.querySelectorAll('.control');
 
                 for (let control of controls) {
                     control.addEventListener('click', function (event) {

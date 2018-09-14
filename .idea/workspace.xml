@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9abef5c-1acd-492c-9515-00b5a6e91dd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/icons/s_bg_w_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/s_bg_w_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/user_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/user_default_f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/user_default_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/arr_w_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/list_w_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_next_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_next_bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_next_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_next_sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_prev_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_prev_bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_prev_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/sl_prev_sh.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/greed.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/greed.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/greed.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/greed.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,48 +74,48 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="42" />
-          <entry key="html" value="11" />
-          <entry key="js" value="17" />
-          <entry key="php" value="58" />
+          <entry key="css" value="54" />
+          <entry key="html" value="13" />
+          <entry key="js" value="24" />
+          <entry key="php" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="42" />
-          <entry key="HTML" value="11" />
-          <entry key="JavaScript" value="17" />
-          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="CSS" value="54" />
+          <entry key="HTML" value="13" />
+          <entry key="JavaScript" value="24" />
+          <entry key="PLAIN_TEXT" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4186" />
-          <entry key="html" value="2191" />
-          <entry key="js" value="675" />
-          <entry key="php" value="1274" />
-          <entry key="txt" value="210" />
+          <entry key="css" value="6518" />
+          <entry key="html" value="2359" />
+          <entry key="js" value="1386" />
+          <entry key="php" value="1934" />
+          <entry key="txt" value="234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4186" />
-          <entry key="HTML" value="2194" />
-          <entry key="JavaScript" value="672" />
-          <entry key="PLAIN_TEXT" value="1484" />
+          <entry key="CSS" value="6518" />
+          <entry key="HTML" value="2362" />
+          <entry key="JavaScript" value="1383" />
+          <entry key="PLAIN_TEXT" value="2168" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49159664">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/greed.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+                <state relative-caret-position="527">
+                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
                 </state>
               </provider>
             </entry>
@@ -116,70 +123,46 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/greed.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+                <state relative-caret-position="193">
+                  <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/js/greed.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="31" selection-start-line="10" selection-end-line="31" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2771">
-                  <caret line="163" column="49" lean-forward="true" selection-start-line="163" selection-start-column="49" selection-end-line="163" selection-end-column="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="427">
-                  <caret line="605" column="61" lean-forward="true" selection-start-line="605" selection-start-column="61" selection-end-line="605" selection-end-column="61" />
+                <state relative-caret-position="609">
+                  <caret line="2312" selection-start-line="2298" selection-start-column="8" selection-end-line="2312" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="268" selection-start-line="268" selection-end-line="269" />
-                  <folding>
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="330">
+                  <caret line="2312" selection-start-line="2298" selection-end-line="2312" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="464" column="42" lean-forward="true" selection-start-line="464" selection-start-column="42" selection-end-line="464" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/personal.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="740">
-                  <caret line="252" column="41" lean-forward="true" selection-start-line="250" selection-start-column="32" selection-end-line="252" selection-end-column="41" />
+                <state relative-caret-position="1122">
+                  <caret line="213" column="18" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#27577#27582#0" expanded="true" />
-                    <element signature="e#27583#27588#0" expanded="true" />
-                    <element signature="e#27589#27594#0" expanded="true" />
-                    <element signature="e#27595#27600#0" expanded="true" />
-                    <element signature="e#27601#27606#0" expanded="true" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
@@ -187,28 +170,28 @@
             </entry>
           </file>
           <file pinned="true" current-in-tab="true">
-            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/css/style.css">
+            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/sale.basket.basket/main/style.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/sale.basket.basket/main/template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="489">
-                  <caret line="1877" selection-start-line="1877" selection-end-line="1877" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="true" current-in-tab="false">
-            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/script.js">
+          <file pinned="true" current-in-tab="true">
+            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/news.list/invoice/template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="498">
-                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="true" current-in-tab="false">
-            <entry file="remoteDeploymentFS://&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="102" column="61" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="61" />
+                <state relative-caret-position="255">
+                  <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -226,36 +209,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getcont</find>
-      <find>over</find>
-      <find>infoLine</find>
-      <find>strong</find>
-      <find>offer</find>
-      <find>border</find>
-      <find>$activeClass</find>
-      <find>subnav</find>
-      <find>border-top</find>
-      <find>auth</find>
-      <find>str</find>
-      <find>serv</find>
-      <find>.subnav-overlay__item:first-child</find>
-      <find>10px</find>
-      <find>control</find>
-      <find>prod</find>
-      <find>.prod__item-title</find>
-      <find>_SUB</find>
-      <find>form</find>
-      <find>paginator.send</find>
-      <find>setViewPaginator</find>
-      <find>column</find>
       <find>content</find>
       <find>check</find>
       <find>det</find>
       <find>d</find>
-      <find>cat</find>
       <find>params</find>
+      <find>d-cat</find>
       <find>pop</find>
+      <find>next</find>
+      <find>cat</find>
+      <find>brand</find>
+      <find>@</find>
+      <find>script</find>
+      <find>c-sel</find>
       <find>basket</find>
+      <find>lk</find>
+      <find>foote</find>
+      <find>footer</find>
+      <find>p-cab</find>
+      <find>mob-nav</find>
+      <find>burger</find>
+      <find>box-sha</find>
+      <find>control</find>
+      <find>serv</find>
+      <find>box-sh</find>
+      <find>.sidebar</find>
+      <find>searc</find>
+      <find>search__input</find>
+      <find>wrapper</find>
+      <find>filial</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -264,20 +247,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/contacts.html" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog.smart.filter/.default/style.css" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog.smart.filter/.default/template.php" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/sale.basket.basket/main/script.js" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.section.list/.default/template.php" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/breadcrumb/cantilen/template.php" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/news/news/bitrix/news.list/.default/template.php" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/template_styles.css" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/sale.basket.basket/main/template.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog.section/search/script.js" />
         <option value="$PROJECT_DIR$/catalog.html" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/menu/topMenu/template.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/sale.basket.basket/main/style.css" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/index.php" />
@@ -290,18 +263,39 @@
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/about/payment/index.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/contacts/index.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog.search/main/bitrix/search.page/.default/template.php" />
-        <option value="$PROJECT_DIR$/typographics.html" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog.section/search/template.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/breadcrumb/cantilen/style.css" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/template.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/script.js" />
-        <option value="$PROJECT_DIR$/personal.html" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/components/skyweb24/cantilen.order.ajax/templates/.default/template.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/components/skyweb24/cantilen.order.ajax/templates/.default/style.css" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/css/style.css" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/header.php" />
-        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/template.php" />
+        <option value="$PROJECT_DIR$/personal.html" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/script.js" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/js/greed.js" />
+        <option value="$PROJECT_DIR$/js/greed.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/form/register-form/bitrix/form.result.new/.default/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/news.list/mainBrands/template.php" />
+        <option value="$PROJECT_DIR$/css/greed.css" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/css/greed.css" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.element/.default/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/bitrix/catalog.section/.default/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog/main/section.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/catalog.smart.filter/.default/style.css" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/bitrix/templates/cantilen/components/bitrix/news/news/bitrix/news.list/.default/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/news/news/bitrix/news.list/.default/template.php" />
+        <option value="$PROJECT_DIR$/typographics.html" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/header.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/js/script.js" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/menu/topMenuMobile/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/sale.basket.basket/main/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/sale.basket.basket/main/style.css" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/news.list/invoice/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/news.list/documents/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/components/bitrix/news/filials/bitrix/news.list/.default/template.php" />
+        <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/personal/help/index.php" />
         <option value="&lt;48ed9693-e1bb-44e5-b3fe-46ca77ca7ea6&gt;/public_html/local/templates/cantilen/css/style.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -334,75 +328,37 @@
             <path>
               <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="sale.basket.basket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="sale.basket.basket" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="sale.basket.basket" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cantilen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cantilen" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -426,6 +382,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\cantilen\local\templates\cantilen\img\icons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -459,7 +420,7 @@
       <workItem from="1536204822775" duration="25177000" />
       <workItem from="1536290455574" duration="21666000" />
       <workItem from="1536552128162" duration="58000" />
-      <workItem from="1536636084825" duration="31005000" />
+      <workItem from="1536636084825" duration="90254000" />
     </task>
     <task id="LOCAL-00001" summary="главная + типографика">
       <created>1535514667955</created>
@@ -594,16 +555,23 @@
       <option name="project" value="LOCAL" />
       <updated>1536670075741</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="фиксы деталки + корзинка иконка">
+      <created>1536725272576</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1536725272576</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115083000" />
+    <option name="totallyTimeSpent" value="174332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10714286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -622,7 +590,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.14232409" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.13166311" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +618,8 @@
     <MESSAGE value="Филиалы фиксы" />
     <MESSAGE value="Корзина иконка + мелкие фиксы" />
     <MESSAGE value="фиксы деталки" />
-    <option name="LAST_COMMIT_MESSAGE" value="фиксы деталки" />
+    <MESSAGE value="фиксы деталки + корзинка иконка" />
+    <option name="LAST_COMMIT_MESSAGE" value="фиксы деталки + корзинка иконка" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/news.html">
@@ -667,56 +636,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/greed.js">
+    <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/greed.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="339">
+          <caret line="464" column="42" selection-start-line="464" selection-start-column="42" selection-end-line="464" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2771">
-          <caret line="163" column="49" lean-forward="true" selection-start-line="163" selection-start-column="49" selection-end-line="163" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typographics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="74" selection-start-line="70" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="252" column="41" lean-forward="true" selection-start-line="250" selection-start-column="32" selection-end-line="252" selection-end-column="41" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#27577#27582#0" expanded="true" />
-            <element signature="e#27583#27588#0" expanded="true" />
-            <element signature="e#27589#27594#0" expanded="true" />
-            <element signature="e#27595#27600#0" expanded="true" />
-            <element signature="e#27601#27606#0" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="163" column="49" selection-start-line="163" selection-start-column="49" selection-end-line="163" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="268" selection-start-line="268" selection-end-line="269" />
+        <state relative-caret-position="272">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -724,17 +661,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog.html">
+    <entry file="file://$PROJECT_DIR$/css/greed.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="464" column="42" lean-forward="true" selection-start-line="464" selection-start-column="42" selection-end-line="464" selection-end-column="42" />
+        <state relative-caret-position="193">
+          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/greed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typographics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="605" column="61" lean-forward="true" selection-start-line="605" selection-start-column="61" selection-end-line="605" selection-end-column="61" />
+        <state relative-caret-position="609">
+          <caret line="2312" selection-start-line="2298" selection-start-column="8" selection-end-line="2312" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="213" column="18" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
