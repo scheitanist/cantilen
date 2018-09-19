@@ -666,7 +666,7 @@ h6 {
 
 .header {
     position: fixed;
-    z-index: 21;
+    z-index: 95;
     top: 0;
     left: 0;
     right: 0;
@@ -1170,7 +1170,8 @@ h6 {
         z-index: 9;
         bottom: 100%;
         /*bottom: 0;*/
-        right: 30px;
+        right: 65px;
+        /*right: 30px;*/
         width: 0;
         height: 0;
         border-style: solid;
@@ -2384,7 +2385,7 @@ h6 {
     .params__item._title {
         font-weight: normal;
         color: #666666;
-        /*text-align: right;*/
+        text-align: right;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -2450,6 +2451,31 @@ h6 {
             font-weight: bold;
             }
 
+/*Pagination*/
+
+.pag {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+    .pag__item {
+        height: 40px;
+        width: 40px;
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        }
+    .pag__item._active {
+        font-weight: bold;
+        background: #f0f0f0;
+        text-decoration: none;
+        color: #000000;
+        }
+    .pag__link {
+
+        }
+
 /*Footer*/
 
 .footer {
@@ -2492,6 +2518,7 @@ h6 {
             border-bottom-color: transparent;
             }
             .footer__inner-unit-item {
+                padding-left: 20px;
                 padding-right: 50px;
                 border-right: 1px solid  #333;
                 }
@@ -2499,12 +2526,18 @@ h6 {
                     padding: 0 0 10px;
                     color: #999999;
                     }
+                .footer__inner-unit-item a {
+                    display: inline-block;
+                    }
                 .footer__inner-unit-item p {
 
                     }
                 .footer__inner-unit-item p > span {
                     color: #999999;
                     }
+            .footer__inner-unit-item:first-child {
+                padding-left: 0;
+                }
             .footer__inner-unit-item:last-child {
                 padding-right: 0;
                 border-right-color: transparent;
