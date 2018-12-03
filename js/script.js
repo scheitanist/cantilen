@@ -17,18 +17,18 @@ window.addEventListener('DOMContentLoaded', function () {
 
     inputs();
 
-    function subNavImgWidth() {
-        let subNavImg = document.querySelectorAll('._aligner');
-
-        for (let overlay of subNavImg) {
-            let img = overlay.getElementsByTagName('img')[0],
-                imgWidth = img.clientWidth;
-
-            img.style.left = 'calc(50% - ' + (imgWidth / 2) + 'px)';
-        }
-    }
-
-    subNavImgWidth();
+    // function subNavImgWidth() {
+    //     let subNavImg = document.querySelectorAll('._aligner');
+    //
+    //     for (let overlay of subNavImg) {
+    //         let img = overlay.getElementsByTagName('img')[0],
+    //             imgWidth = img.clientWidth;
+    //
+    //         img.style.left = 'calc(50% - ' + (imgWidth / 2) + 'px)';
+    //     }
+    // }
+    //
+    // subNavImgWidth();
 
     function sliderBrands() {
         let sliders = document.querySelectorAll('._slider-b');
@@ -150,6 +150,23 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 
     searchShow();
+
+    function auth() {
+       let auth = document.querySelector('.auth'),
+           cont = auth.querySelector('.auth__inner'),
+           link = auth.querySelector('.login');
+
+       link.addEventListener('click', function (event) {
+           event.preventDefault();
+           if (event.target === link && !cont.classList.contains('_visible')) {
+               cont.classList.add('_visible');
+           } else {
+               cont.classList.remove('_visible');
+           }
+       })
+    }
+
+    auth();
 
     // function catShowType() {
     //     let cat = document.querySelector('.cat__main'),
