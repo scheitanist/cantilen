@@ -2723,6 +2723,8 @@ h6 {
                 display: inline-block;
                 background: url("../img/icons/ok-green.png") top left no-repeat;
                 content: '';
+
+
                 }
 
 @media (max-width: 1024px) {
