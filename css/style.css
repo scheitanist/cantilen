@@ -2587,7 +2587,7 @@ h6 {
             display: block;
             }
         .feat__item-text {
-
+            min-height: 65px;
             }
     .feat__item._first {
 
@@ -2609,16 +2609,28 @@ h6 {
         }
 
 .pros {
-    min-height: 520px;
+    /*min-height: 580px;*/
+    /*min-height: 520px;*/
     }
     .pros__item {
-        padding: 50px 13%;
+        /*padding-top: 50px;*/
+        /*padding-bottom: 50px;*/
+        /*padding: 50px 13%;*/
+        min-height: 540px;
+        /*min-height: 580px;*/
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-end;
         align-items: center;
         color: #fff;
         background: #000;
+        background-size: cover;
+        }
+    .pros__item:first-child {
+        background: url("../img/pros_bg_1.png") center no-repeat;
+        }
+    .pros__item:last-child {
+        background: url("../img/pros_bg_2.png") center no-repeat;
         }
         .pros__item img {
             margin-bottom: 50px;
@@ -2627,8 +2639,10 @@ h6 {
             /*min-height: 180px;*/
             }
         .pros__item-text {
-            flex: 0 0 50%;
-            font-size: 28px;
+            max-width: 315px;
+            flex: 0 0 45%;
+            /*flex: 0 0 50%;*/
+            font-size: 30px;
             font-weight: bold;
             }
 
@@ -2674,7 +2688,7 @@ h6 {
                 left: 100%;
                 top: calc(50% - 5px);
                 height: 10px;
-                width: 100%;
+                width: 110%;
                 background: #50bc4d;
                 content: '';
                 }
@@ -2690,7 +2704,9 @@ h6 {
                     text-transform: uppercase;
                     }
                 .alg__list-item-desc-text {
-                    /*font-weight: bold;*/
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: #333333;
                     }
     .alg__pros {
         padding: 40px 0;
@@ -2724,6 +2740,270 @@ h6 {
                 background: url("../img/icons/ok-green.png") top left no-repeat;
                 content: '';
                 }
+
+/*Franchise*/
+
+.fran {
+
+    }
+    .fran__unit {
+        padding: 40px 0;
+        }
+    .fran__unit._facts {
+        color: #ffffff;
+        background: url("../img/bg_dark_2.png") center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        }
+
+.reasons {
+    text-align: center;
+    }
+    .reasons__title {
+
+        }
+    .reasons__list {
+        padding: 40px 0 0;
+        }
+        .reasons__list-item {
+            margin-bottom: 20px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            }
+            .reasons__list-item img {
+                margin-bottom: 40px;
+                width: auto;
+                max-width: 100%;
+                height: auto;
+                display: block;
+                }
+            .reasons__list-item-text {
+                max-width: 295px;
+                font-size: 16px;
+                line-height: 1.9;
+                /*line-height: 30px;*/
+                color: #333333;
+                }
+
+.facts {
+
+    }
+    .facts__title {
+        text-align: center;
+        }
+    .facts__main {
+        align-items: flex-end;
+        }
+        .facts__main-unit {
+
+            }
+
+    .facts__numbers {
+
+        }
+        .facts__numbers-item {
+
+            }
+            .facts__numbers-item-value {
+
+                }
+            .facts__numbers-item-text {
+
+                }
+
+.graph {
+
+    }
+    .graph__title {
+
+        }
+    .graph__main {
+        position: relative;
+        padding: 0 10px;
+        min-height: 300px;
+        display: flex;
+        flex-flow: row nowrap;
+        }
+    .graph__main:before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 45px;
+        height: 5px;
+        background: #ffffff;
+        content: '';
+        }
+        .graph__item {
+            padding: 40px 5px;
+            width: calc(100% / 6);
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-end;
+            text-align: center;
+            }
+        /*.graph__item._first {*/
+            /*animation: graphic-col-1 0.5s ease-in-out;*/
+            /*}*/
+        /*.graph__item._second {*/
+            /*animation: graphic-col-2 0.5s ease-in-out;*/
+            /*}*/
+        /*.graph__item._third {*/
+            /*animation: graphic-col-3 0.5s ease-in-out;*/
+            /*}*/
+        /*.graph__item._fourth {*/
+            /*animation: graphic-col-4 0.5s ease-in-out;*/
+            /*}*/
+        /*.graph__item._fifth {*/
+            /*animation: graphic-col-5 0.5s ease-in-out;*/
+            /*}*/
+        /*.graph__item._sixth {*/
+            /*animation: graphic-col-6 0.5s ease-in-out;*/
+            /*}*/
+            .graph__item-value,
+            .graph__item-year {
+                font-size: 16px;
+                }
+            .graph__item-value {
+                margin-top: -40px;
+                line-height: 40px;
+                }
+            .graph__item-inner {
+                width: 100%;
+                min-height: 1%;
+                }
+            .graph__item._first .graph__item-inner {
+                animation: graphic-col-1 1s ease-in-out;
+                animation-fill-mode: forwards;
+                background: #79b828;
+                }
+            .graph__item._second .graph__item-inner {
+                animation: graphic-col-2 1s ease-in-out;
+                animation-fill-mode: forwards;
+                background: #68b939;
+                }
+            .graph__item._third .graph__item-inner {
+                animation: graphic-col-3 1s ease-in-out;
+                animation-fill-mode: forwards;
+                background: #52b94e;
+                }
+            .graph__item._fourth .graph__item-inner {
+                animation: graphic-col-4 1s ease-in-out;
+                animation-fill-mode: forwards;
+                background: #3cba64;
+                }
+            .graph__item._fifth .graph__item-inner {
+                animation: graphic-col-5 1s ease-in-out;
+                animation-fill-mode: forwards;
+                background: #27ba79;
+                }
+            .graph__item._sixth .graph__item-inner {
+                animation: graphic-col-6 1s ease-in-out;
+                animation-fill-mode: forwards;
+                background: #15bb8a;
+                }
+            .graph__item-year {
+                margin-top: 20px;
+                margin-bottom: -40px;
+                line-height: 40px;
+                }
+
+@keyframes graphic-col-1 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 20%;
+        }
+    }
+@keyframes graphic-col-2 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 27%;
+        }
+    }
+@keyframes graphic-col-3 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 30%;
+        }
+    }
+@keyframes graphic-col-4 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 45%;
+        }
+    }
+@keyframes graphic-col-5 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 80%;
+        }
+    }
+@keyframes graphic-col-6 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 100%;
+        }
+    }
+@-webkit-keyframes graphic-col-1 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 20%;
+        }
+    }
+@-webkit-keyframes graphic-col-2 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 27%;
+        }
+    }
+@-webkit-keyframes graphic-col-3 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 30%;
+        }
+    }
+@-webkit-keyframes graphic-col-4 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 45%;
+        }
+    }
+@-webkit-keyframes graphic-col-5 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 80%;
+        }
+    }
+@-webkit-keyframes graphic-col-6 {
+    0% {
+        height: 1%;
+        }
+    100% {
+        height: 100%;
+        }
+    }
 
 @media (max-width: 1024px) {
     .alg__list {
