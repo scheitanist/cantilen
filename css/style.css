@@ -3276,7 +3276,7 @@ h6 {
     .total__item {
         position: relative;
         padding: 0 0 0 30px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -3296,6 +3296,9 @@ h6 {
         content: '';
         }
     .total__item:last-child {
+        margin-bottom: 0;
+        padding-top: 20px;
+        border-top: 1px solid #ffffff;
         font-size: 30px;
         font-weight: bold;
         }
