@@ -3257,9 +3257,62 @@ h6 {
 .preord {
 
     }
-    .preord__unit {
-
+    .preord__inner {
+        align-items: flex-end;
         }
+    .preord__unit {
+        padding: 40px 70px 70px;
+        }
+    .preord__unit._total {
+        background: url("../img/bg_total.png") center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        }
+
+.total {
+    display: flex;
+    flex-flow: column nowrap;
+    }
+    .total__item {
+        position: relative;
+        padding: 0 0 0 30px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        font-size: 16px;
+        text-align: left;
+        color: #fff;
+        }
+    .total__item:before {
+        position: absolute;
+        left: 0;
+        top: 4px;
+        /*top: 0;*/
+        width: 25px;
+        height: 30px;
+        display: inline-block;
+        background: url("../img/icons/ok-white-s.png") top left no-repeat;
+        content: '';
+        }
+    .total__item:last-child {
+        font-size: 30px;
+        font-weight: bold;
+        }
+    .total__item:last-child:before {
+        content: none;
+        }
+        .total__item > * {
+
+            }
+        .total__item > *:last-child {
+            max-width: 150px;
+            text-align: right;
+            font-weight: bold;
+            }
+        .total__item:last-child > *:last-child {
+            max-width: initial;
+            }
 
 @media (max-width: 1024px) {
     .alg__list {
