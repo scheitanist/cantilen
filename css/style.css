@@ -2647,11 +2647,12 @@ h6 {
             }
 
 .alg {
-
+    margin-top: 50px;
     }
     .alg__list {
         display: flex;
         flex-flow: row nowrap;
+        align-items: flex-start;
         justify-content: space-between;
         }
         .alg__list-item {
@@ -2751,17 +2752,28 @@ h6 {
     .fran__unit {
         padding: 40px 0;
         }
-    .fran__unit._facts {
+    .fran__unit._facts,
+    .fran__unit._concept,
+    .fran__unit._video {
         color: #ffffff;
-        background: url("../img/bg_dark_2.png") center no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*-webkit-background-size: 100%;*/
+        /*background-size: 100%;*/
         -webkit-background-size: cover;
         background-size: cover;
         }
+    .fran__unit._facts {
+        background-image: url("../img/bg_dark_2.png");
+        }
     .fran__unit._concept {
-        color: #ffffff;
-        background: url("../img/bg_green.png") center no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
+        background-image: url("../img/bg_green.png");
+        }
+    .fran__unit._profits {
+        background: #f0f0f0;
+        }
+    .fran__unit._video {
+        background-image: url("../img/bg_video.png");
         }
 
 .reasons {
@@ -3070,21 +3082,181 @@ h6 {
                 font-weight: bold;
                 }
 
-.replies {
+.profits {
+    text-align: center;
+    }
+    .profits__title {
+        margin-bottom: 80px;
+        /*margin-bottom: 25px;*/
+        }
+    .profits__list {
+        display: flex;
+        flex-flow: row nowrap;
+        }
+        .profits__list-item {
+            position: relative;
+            padding: 30px 20px;
+            border-top: 10px solid #48c145;
+            flex: 0 0 calc(100% / 6);
+            }
+        .profits__list-item:before {
+            position: absolute;
+            left: calc(50% - 15px);
+            top: -20px;
+            width: 30px;
+            height: 30px;
+            border: 3px solid #f0f0f0;
+            border-radius: 50%;
+            background: #48c145 5px;
+            content: '';
+            }
+
+.video {
+    min-height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+    .video__title {
+        margin-bottom: 50px;
+        }
+    .video__btn {
+        padding: 0 40px;
+        border-radius: 5px;
+        line-height: 60px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #000000;
+        background: #ffffff;
+        }
+        .video__btn:before {
+            margin-right: 10px;
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            content: '';
+            background: url("../img/icons/play_green.png") center no-repeat;
+            }
+
+.tarifs {
 
     }
-    .replies__item {
-        
+    .tarifs__list {
+
         }
-        .replies__item-ava {
-
+        .tarifs__list-item {
+            margin-bottom: 30px;
             }
-            .replies__item-ava img {
-
+        .tarifs__inner {
+            padding: 40px;
+            height: 100%;
+            border-radius: 5px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            text-align: center;
+            background: #f0f0f0;
+            }
+            .tarifs__inner-rate {
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: 5px;
+                color: #24a247;
                 }
-        .replies__item {
+            .tarifs__inner-title {
+                margin-bottom: 30px;
+                font-size: 30px;
+                font-weight: bold;
+                }
+            .tarifs__inner-list {
+                flex: 1 1 100%;
+                text-align: left;
+                }
+                .tarifs__inner-list-item {
+                    position: relative;
+                    padding: 0 0 0 30px;
+                    margin-bottom: 15px;
+                    display: inline-block;
+                    font-size: 13px;
+                    text-align: left;
+                    color: #666666;
+                    }
+                .tarifs__inner-list-item:before {
+                    position: absolute;
+                    left: 0;
+                    top: 4px;
+                    /*top: 0;*/
+                    width: 25px;
+                    height: 30px;
+                    display: inline-block;
+                    background: url("../img/icons/ok-green-s.png") top left no-repeat;
+                    content: '';
+                    }
+            .tarifs__inner-price {
+                margin: 15px 0;
+                font-size: 16px;
+                font-weight: bold;
+                }
+            .tarifs__inner-btn,
+            .tarifs__inner-btn.btn {
+                padding-top: 8px;
+                padding-bottom: 8px;
+                width: 100%;
+                line-height: normal;
+                }
+
+.replies {
+    text-align: center;
+    }
+    .replies__title {
+        margin-bottom: 40px;
+        }
+    .replies__list {
+
+        }
+        .replies__list-item {
 
             }
+            .replies__list-item-ava {
+                margin: 0 auto 30px;
+                width: 140px;
+                height: 140px;
+                overflow: hidden;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+                .replies__list-item-ava img {
+                    display: block;
+                    }
+            .replies__list-item-text {
+                margin: 0 auto 20px;
+                max-width: 760px;
+                font-size: 16px;
+                color: #666666;
+                }
+            .replies__list-item-info {
+                margin: 0 auto 20px;
+                max-width: 400px;
+                }
+                .replies__list-item-info-name {
+                    font-size: 18px;
+                    font-weight: bold;
+                    }
+                .replies__list-item-info-job {
+                    font-size: 12px;
+                    color: #666666;
+                    }
+
+.preord {
+
+    }
+    .preord__unit {
+
+        }
 
 @media (max-width: 1024px) {
     .alg__list {
@@ -3116,6 +3288,20 @@ h6 {
     .feat__item {
         flex-basis: calc(100% / 3);
         }
+    .profits__list {
+        flex-flow: column nowrap;
+        }
+        .profits__list-item {
+            margin-left: 10px;
+            border-left: 10px solid #48c145;
+            border-top: 0;
+            flex: 0 0 100%;
+            text-align: left;
+            }
+        .profits__list-item:before {
+            left: -20px;
+            top: calc(50% - 15px);
+            }
     }
 @media (max-width: 639px) {
     .feat__item {
